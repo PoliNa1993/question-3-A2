@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Polina Anis'kina-->
+<!--ID: 26991092-->
+<!--Question3-->
+<!--SOEN287-S-->
+<!--This program calculates squares and cubes of a number and put them in a table-->
+<html>
+<head>
+  <style>
+  table{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  th,tr,td{
+      border: 1px solid black;
+  }
+  </style>
+    <title>Question3.html</title>
+    <script>
+    document.write( "<table> <tr> <th>numbers</th> <th>square</th> <th>cube</th> </tr>" )
+    for(var i = 1; i <= 5; i ++)
+    {
+    document.write( "<tr><td>" + i + "</td><td>" + i*i + "</td><td>" + i*i*i + "</td></tr>" )
+    }
+    document.write( "</table>" )
+    </script>
+</head>
+<body>
+</body>
+</html>
